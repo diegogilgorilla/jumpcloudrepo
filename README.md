@@ -30,7 +30,9 @@ The following sections shows the cases and the bugs that were found for each ser
     Validates if the service response 200
     
 How to run it
+
 Just use the command pytest
+
 It also contains a report generator with allure, toy can generate it writing the following commands:
   1. pytest --alluredir=/tmp/my_allure_results
   2. allure serve /tmp/my_allure_results
